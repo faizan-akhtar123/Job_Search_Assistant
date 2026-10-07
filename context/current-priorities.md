@@ -23,7 +23,7 @@
 | 5 min | Approve follow-ups, check tracker | Follow-up drafts, tracker updates |
 
 ## Weekly rhythm
-- **Mon, Thu:** career page scan and shortlist refresh
+- **Daily:** run the `daily-job-brief` skill (new jobs only, no duplicates)
 - **Tue, Fri:** LinkedIn post
 - **Off day:** 2 to 3 hours on portfolio demo and interview prep (5 applications)
 - **Sun:** 15-minute weekly review

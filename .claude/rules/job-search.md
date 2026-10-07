@@ -11,6 +11,10 @@
 - Company career pages for jobs located in India (main source).
 - LinkedIn is for inbound only. Never automate or scrape LinkedIn (account ban risk).
 
+## No duplicate jobs
+- Never show Faizan a job he has already seen on any earlier day, including reposts with a new link.
+- Check every job against `projects/india-job-search/seen-jobs.csv` using `.claude/skills/daily-job-brief/scripts/seen_jobs.py`, and log every job shown or skipped.
+
 ## Application forms
 - Do not submit forms. Keep a reusable answer bank so Faizan can copy and paste.
 

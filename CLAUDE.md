@@ -26,10 +26,10 @@ Rules for style, job search and approvals live in `.claude/rules/` and load auto
 ## Skills
 - Project skills live in `.claude/skills/`. Each skill gets a folder: `.claude/skills/skill-name/SKILL.md`.
 - Skills are built organically when a request starts repeating. Do not create skills upfront.
+- Project skills: `daily-job-brief` (daily scan, dedupe, score, tailored CVs).
 - Already available (user level): `job-search`, `linkedin-post`, `client-acquisition`.
 
 ### Skills to Build (backlog)
-- **Daily job brief:** scan career pages, score, shortlist, tailored CVs for ≥60%, in one run
 - **Application answer bank:** reusable answers for common application form questions
 - **LinkedIn weekly batch:** 2 post drafts per week, ready to approve
 - **Interview prep pack:** company research and likely questions per interview
@@ -61,6 +61,9 @@ Reusable templates live in `templates/`. Use `templates/session-summary.md` to c
 ## References
 - `references/sops/`: standard operating procedures
 - `references/examples/`: example outputs and style guides
+
+## File Naming
+Name files `YYYY-MM-DD_short-description.ext`, for example `2026-10-07_daily-job-brief.xlsx`.
 
 ## Archives
 Don't delete. Move completed or outdated material to `archives/`.
