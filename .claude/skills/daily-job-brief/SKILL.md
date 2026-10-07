@@ -1,6 +1,9 @@
 ---
 name: daily-job-brief
 description: Faizan's daily job brief. Scans Indian company career pages for entry-level AI automation roles, removes every job already seen on any earlier day, scores the new ones against his CV, auto-tailors CVs for matches at 60% or more, and saves one Excel brief for the day. Use when Faizan says "daily job brief", "aaj ki jobs", "today's jobs", "run the brief", or asks for new jobs to apply to today.
+context: fork
+agent: job-brief-runner
+model: sonnet
 ---
 
 # Daily Job Brief

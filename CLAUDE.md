@@ -26,7 +26,7 @@ Rules for style, job search and approvals live in `.claude/rules/` and load auto
 ## Skills
 - Project skills live in `.claude/skills/`. Each skill gets a folder: `.claude/skills/skill-name/SKILL.md`.
 - Skills are built organically when a request starts repeating. Do not create skills upfront.
-- Project skills: `daily-job-brief` (daily scan, dedupe, score, tailored CVs).
+- Project skills: `daily-job-brief` (daily scan, dedupe, score, tailored CVs). Runs on Sonnet via the `job-brief-runner` agent in `.claude/agents/`.
 - Already available (user level): `job-search`, `linkedin-post`, `client-acquisition`.
 
 ### Skills to Build (backlog)
