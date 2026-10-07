@@ -24,4 +24,4 @@
 After landing a job, build a freelance AI automation business and gradually move from employment to freelancing.
 
 ## Contact (for CVs and applications)
-- Kept private in `CLAUDE.local.md` (git-ignored, not pushed to GitHub).
+- Kept private in `.env` (git-ignored, not pushed to GitHub).
